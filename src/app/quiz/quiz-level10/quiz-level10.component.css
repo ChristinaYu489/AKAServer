@@ -1,0 +1,69 @@
+.selector-box {
+    display: inline-block;
+    position: relative;
+    width: 380px;
+    left: 50px;
+    height: 30px;
+    margin: 0px 50px 36px 50px;
+}
+
+input[type="radio"] {
+    display:inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right:25px;
+}
+
+label {
+    display:inline-block;
+    width: 320px;
+    height: 30px;
+    font-family: AppleSDGothicNeoR, _AppleSDGothicNeoR;
+    font-size:24px;
+    color: #4b4b4b;
+    position: relative;
+    top: -7px;
+}
+
+.select_complete {
+    display: inline-block;
+    width:200px;
+    height:52px;
+    border-radius: 4px;
+    background:#d8d8d8;
+    color:#ffffff;
+    font-family: AppleSDGothicNeoM, _AppleSDGothicNeoM;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    cursor: pointer;
+    padding-top: 15px;
+    margin-top: 47px
+}
+
+.select_complete_active {
+    background:#5562ff;
+}
+
+#sentence {
+    font-family: NotoSans, _NotoSans;
+    font-size: 60px;
+    color: #ffbf0a;
+    padding-bottom:160px;
+}
+
+app-audio-player {
+    margin-top: -23px;
+}
+
+#quiz-container {
+    margin-bottom: 148px;
+}
+
+#question {
+    font-family: AppleSDGothicNeoR, _AppleSDGothicNeoR;
+    font-size: 36px;
+    color: #ff4894;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    width: 790px;
+}

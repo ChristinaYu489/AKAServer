@@ -1,0 +1,52 @@
+<div class="container">
+  <div class="row">
+    <form>
+      <h4>{{"정보입력" | translate}}</h4>
+      <div class="line"></div>
+      <div>
+        <span>{{"아이디" | translate}}</span>
+        <input #id type="email" placeholder="example@example.com">
+      </div>
+      <div class="signup-failed">
+        <span *ngIf="isInvalidId">{{"*이미 존재하는 아이디 입니다."| translate}}</span>
+      </div>
+      <div>
+        <span>{{"비밀번호" | translate}}</span>
+        <input #pw type="password">
+      </div>
+      <div>
+        <span>{{"비밀번호 확인" | translate}}</span>
+        <input #pw_check type="password">
+      </div>
+      <div class="signup-failed">
+          <span *ngIf="isUnmatchedPw">{{"*비밀번호가 일치하지 않습니다." | translate}}</span>
+        </div>
+      <div id="grades-select-container">
+        <span>{{"학년" | translate}}</span>
+        <select #grade1 (change)="grade1Changed($event.target.value)">
+          <option *ngFor="let grade of grade1List" [value]="grade.value">{{grade.name | translate}}</option>
+        </select>
+        <select #grade2>
+          <option *ngFor="let grade of grade2List[selectedGrade1Value]" [value]="grade.value">{{grade.name | translate}}
+          </option>
+        </select>
+      </div>
+      <div class="signup-failed">
+      </div>
+      <div>
+        <span>{{"영어 숙련도" | translate}}</span>
+        <select #skill>
+            <option value=1>{{"초급" | translate}}</option>
+            <option value=2>{{"중급" | translate}}</option>
+            <option value=3>{{"고급" | translate}}</option>
+        </select>
+      </div>
+    </form>
+    <div class="row text-center">
+      <div id="signup-button" (click)="signup()">{{"회원가입" | translate}}</div>
+    </div>
+  </div>
+  <div id="login-anker" class="row text-right">
+    {{"이미 계정이 있다면?" | translate}}<a routerLink="/login">{{"로그인 하기"|translate}}</a>
+  </div>
+</div>

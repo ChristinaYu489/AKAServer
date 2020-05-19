@@ -1,0 +1,21 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    min-width: 1201px;
+}
+
+app-topbar, app-bottom {
+    width: 100%;
+}
+
+app-topbar {
+    position: fixed;
+    z-index: 1000;
+    background: #2a34b2;
+}
+
+app-bottom {
+    position: absolute;
+    z-index: 0;
+    background: #2a34b2;
+}

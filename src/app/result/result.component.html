@@ -1,0 +1,41 @@
+<div class="container text-center">
+  <div id="words" class="row">
+    {{"우리 아이는 또래 아이들과 비교하여"|translate}}<br/>
+    <strong>{{"상위"|translate}}{{percent}}%</strong>{{"의 영어실력을 가지고 있습니다."|translate}}
+  </div>
+  <div id="graph" class="row">
+  </div>
+  <div class="row" id="result-container">
+    <div class="stat-card">
+      {{"음소인식"|translate}}
+      <p class="stat {{stat[0]}}">{{stat[0]}}</p>
+    </div>
+    <div class="stat-card">
+      {{"알파벳"|translate}}
+      <p class="stat {{stat[1]}}">{{stat[1]}}</p>
+    </div>
+    <div class="stat-card">
+      {{"어휘력"|translate}}
+      <p class="stat {{stat[2]}}">{{stat[2]}}</p>
+    </div>
+    <div class="stat-card">
+      {{"문장이해"|translate}}
+      <p class="stat {{stat[3]}}">{{stat[3]}}</p>
+    </div>
+    <div class="stat-card">
+      {{"발음 정확도"|translate}}
+      <p class="stat {{stat[4]}}">{{stat[4]}}</p>
+    </div>
+    <div class="stat-card">
+      {{"듣기능력"|translate}}
+      <p class="stat {{stat[5]}}">{{stat[5]}}</p>
+    </div>
+  </div>
+  <!--
+  <div class="row">
+      <div *ngIf="isDetail==false" class="detail-button" (click)="enableDetail()">{{"자세히 보기"|translate}}</div>
+      <div *ngIf="isDetail==true" class="detail-button" (click)="disableDetail()">{{"간단히 보기"|translate}}</div>
+  </div>
+  -->
+</div>
+<app-result-detail *ngIf="isDetail == true"></app-result-detail>

@@ -1,0 +1,12 @@
+#audio-container {
+    margin-bottom: 100px;
+}
+
+#question {
+    font-family: AppleSDGothicNeoR, _AppleSDGothicNeoR;
+    font-size: 36px;
+    color: #ff4894;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    width: 790px;
+}

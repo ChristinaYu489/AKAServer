@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="row" id="quiz-container">
+    <div class="col-lg-offset-10 col-lg-2" id="timer-container"><app-timer></app-timer></div>
+    <div class="col-lg-12" [ngSwitch]="quizLevel">
+      <app-quiz-level1 *ngSwitchCase="1"></app-quiz-level1>
+      <app-quiz-level2 *ngSwitchCase="2"></app-quiz-level2>
+      <app-quiz-level3 *ngSwitchCase="3"></app-quiz-level3>
+      <app-quiz-level4 *ngSwitchCase="4"></app-quiz-level4>
+      <app-quiz-level5 *ngSwitchCase="5"></app-quiz-level5>
+      <app-quiz-level6 *ngSwitchCase="6"></app-quiz-level6>
+      <app-quiz-level7 *ngSwitchCase="7"></app-quiz-level7>
+      <app-quiz-level8 *ngSwitchCase="8"></app-quiz-level8>
+      <app-quiz-level9 *ngSwitchCase="9"></app-quiz-level9>
+      <app-quiz-level10 *ngSwitchCase="10"></app-quiz-level10>
+    </div>
+  </div>
+  <div class="row text-right">
+    <div id="level-navigater">{{quizLevel}}/10</div>
+  </div>
+</div>

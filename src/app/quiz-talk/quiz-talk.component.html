@@ -1,0 +1,18 @@
+<div class="container">
+  <div id="question" class="row text-center">
+    <div class="col-lg-offset-10 col-lg-2">
+      <app-timer></app-timer>
+    </div>
+  </div>
+  <div class="row text-center">
+    <div id="sentence">{{quizSentence}}</div>
+    <div id="mySentence">{{mySentence}}</div>
+  </div>
+  <div class="row text-center" id="mic">
+    <img (click)="startRecording()" *ngIf="isRecording==false" src="assets/img/quiz_mic.png" />
+    <img (click)="stopRecording()" *ngIf="isRecording==true" src="assets/img/quiz_stop.png" />
+  </div>
+  <div class="row text-right">
+    <div id="level-navigater">{{quizCount}}/10</div>
+  </div>
+</div>

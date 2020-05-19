@@ -1,0 +1,53 @@
+#player {
+    display: inline-block;
+    width: 580px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    font-size: 0px;
+}
+
+.play-button {
+    display: inline-block;
+    height:72px;
+    width:72px;
+    position: absolute;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 25px;
+    font-size: 72px;
+    color: #5562ff;
+}
+
+.play-button > img {
+    display: inline-block;
+    position: absolute;
+}
+
+#progress {
+    display: inline-block;
+    position: absolute;
+    width: 230px;
+    height: 30px;
+    background-color: #ffffff;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    margin-left: 129px;
+}
+
+#fill {
+    background: #5562ff;
+    width: 0%;
+    height: 100%;
+}
+
+#time {
+    display: inline-block;
+    position: absolute;
+    font-size: 24px;
+    color: #afafaf;
+    font-family: AppleSDGothicNeoR, _AppleSDGothicNeoR;
+    margin-top: 46px;
+    margin-bottom: 45px;
+    margin-left: 384px;
+}

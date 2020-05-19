@@ -1,0 +1,17 @@
+.container {
+    padding-bottom: 90px;
+}
+
+#level-navigater {
+    font-family: AppleSDGothicNeoR, _AppleSDGothicNeoR;
+    font-size: 36px;
+    color: #afafaf;
+    padding-right: 60px;
+    margin-top:-43px;
+}
+
+#timer-container {
+    height: 0px;
+    padding-top: 80px;
+    margin-bottom: -80px;
+}

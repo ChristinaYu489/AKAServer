@@ -1,0 +1,72 @@
+.container {
+    font-family: AppleSDGothicNeoR, _AppleSDGothicNeoR;
+}
+
+#words {
+    margin-top: 90px;
+    font-size: 36px;
+    color: #4b4b4b;
+}
+
+#words > strong {
+    font-family: AppleSDGothicNeoEB, _AppleSDGothicNeoEB;
+    font-weight: 800;
+}
+
+.container > div:nth-child(2) {
+    margin-top: 39px;
+}
+
+.stat-card {
+    display: inline-block;
+    width: 120px;
+    height: 180px;
+    border-radius: 4px;
+    background: #f2f2f2;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding-top: 22px;
+    color: #4b4b4b;
+    font-size: 20px;
+    font-family: AppleSDGothicNeoR, _AppleSDGothicNeoR;
+    vertical-align: bottom;
+}
+
+.stat {
+    font-family: NotoSans, _NotoSans;
+    font-size: 80px;
+}
+
+.A {
+    color: #ff3f00
+}
+
+.B {
+    color: #ffbf0a;
+}
+
+.C, .D, .E, .F {
+    color: #489fff;
+}
+
+#result-container {
+    margin-bottom: 125px;
+}
+
+.detail-button {
+    display: inline-block;
+    width: 200px;
+    height: 52px;
+    border: solid 1px #5562ff;
+    border-radius: 4px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-family: AppleSDGothicNeoM, _AppleSDGothicNeoM;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    color: #5562ff;
+    margin-top: 105px;
+    margin-bottom: 90px;
+    cursor: pointer;
+}

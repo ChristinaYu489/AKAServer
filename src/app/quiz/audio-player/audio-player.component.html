@@ -1,0 +1,11 @@
+<div id="player" class="text-left">
+  <div class="play-button">
+    <img *ngIf="isPlaying==false" (click)="play()" src="assets/img/quiz_play.png">
+    <img *ngIf="isPlaying" (click)="pause()" src="assets/img/quiz_pause.png">
+  </div>
+  <div id="progress" class="text-left">
+    <div id="fill" #fill></div>
+  </div>
+  <div id="time">{{currentTime}} / {{maxTime}}</div>
+</div>
+<audio #audioTag src="{{audioPath}}" id="audioTag"></audio>

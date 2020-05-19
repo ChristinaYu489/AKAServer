@@ -1,0 +1,47 @@
+.selector-box {
+    display: inline-block;
+    width: 70px;
+    margin: 72px 50px 90px 50px;
+}
+
+input[type="radio"] {
+    display:inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+label {
+    display:inline-block;
+    width:70px;
+    height: 33px;
+    font-family: NotoSans, _NotoSans;
+    font-size:24px;
+    color: #4b4b4b;
+}
+
+.select_complete {
+    display: inline-block;
+    width:200px;
+    height:52px;
+    border-radius: 4px;
+    background:#d8d8d8;
+    color:#ffffff;
+    font-family: AppleSDGothicNeoM, _AppleSDGothicNeoM;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    cursor: pointer;
+    padding-top: 15px;
+}
+
+.select_complete_active {
+    background:#5562ff;
+}
+
+#question {
+    font-family: AppleSDGothicNeoR, _AppleSDGothicNeoR;
+    font-size: 36px;
+    color: #ff4894;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    width: 790px;
+}

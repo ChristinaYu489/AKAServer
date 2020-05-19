@@ -1,0 +1,24 @@
+<div id="topbar" class="container">
+  <div class="row">
+    <div class="col-lg-6">
+      <a routerLink="/">
+        <img id="muse-logo" src="assets/img/global_museLogo.png" />
+      </a>
+    </div>
+    <div class="col-lg-6 text-right">
+      <a id="my-page" routerLink="login"><img src="assets/img/global_account.png" /></a>
+      <img id="language-flag" src="{{languageFlagPath}}" (click)="onClickFlag()" />
+    </div>
+  </div>
+  <div class="row">
+    <div #languageSelector id="language-selector" class="col-lg-offset-10 text-center">
+      <div (click)="changeLang('cn')">中國語</div>
+      <div class="line"></div>
+      <div (click)="changeLang('ja')">日本語</div>
+      <div class="line"></div>
+      <div (click)="changeLang('ko')">한국어</div>
+      <div class="line"></div>
+      <div (click)="changeLang('en')">English</div>
+    </div>
+  </div>
+</div>

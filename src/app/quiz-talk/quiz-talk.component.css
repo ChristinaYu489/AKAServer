@@ -1,0 +1,30 @@
+.container {
+    height: 1022px;
+}
+#level-navigater {
+    font-family: AppleSDGothicNeoR, _AppleSDGothicNeoR;
+    font-size: 36px;
+    color: #afafaf;
+    margin-top: -60px;
+}
+
+#question {
+    margin-top: 80px;
+    margin-bottom: 90px;
+}
+
+#sentence {
+    font-size: 60px;
+    color: #ffbf0a;
+    font-size: 60px;
+    font-family: NotoSans, _NotoSans;
+    padding-bottom: 138px;
+}
+
+#mySentence {
+    font-size: 60px;
+    color: #489fff;
+    font-size: 60px;
+    font-family: AppleSDGothicNeoR, _AppleSDGothicNeoR;
+    padding-bottom: 138px;
+}

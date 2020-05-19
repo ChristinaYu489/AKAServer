@@ -1,0 +1,13 @@
+<div class="container text-center" id="question"><div>{{"단어를 듣고, 그대로 따라서 읽어보세요."|translate}}</div></div>
+<div class="container">
+  <div class="row text-center" id="graph">
+    <app-fft-graph></app-fft-graph>
+  </div>
+  <div class="row text-center" id="audio-container">
+    <app-audio-player></app-audio-player>
+  </div>
+  <div class="row text-center">
+      <img (click)="startRecording()" *ngIf="isRecording==false" src="assets/img/quiz_mic.png"/>
+      <img (click)="stopRecording()" *ngIf="isRecording==true" src="assets/img/quiz_stop.png"/>
+    </div>
+</div>

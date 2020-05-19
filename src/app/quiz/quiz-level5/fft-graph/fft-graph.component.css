@@ -1,0 +1,36 @@
+canvas {
+    background: gray;
+}
+
+#desc4canvas {
+    display:inline-block;
+    width: 580px;
+    font-family: AppleSDGothicNeoR, _AppleSDGothicNeoR;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+#desc1 {
+    color: #5562ff;
+}
+
+#desc2 {
+    color: #ff4894;
+    margin-left: 40px;
+}
+
+.line {
+    display: inline-block;
+    width: 30px;
+    height: 2px;
+    margin-bottom: 6px;
+    margin-left: 15px;
+}
+
+#desc1 > .line {
+    background: #5562ff;
+}
+
+#desc2 > .line {
+    background: #ff4894
+}

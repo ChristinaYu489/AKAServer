@@ -1,0 +1,20 @@
+#sentence {
+    padding-bottom: 210px;
+    padding-top: 130px;
+    font-family: NotoSans, _NotoSans;
+    font-size: 60px;
+    color: #ffbf0a;
+}
+
+#mic {
+    height: 90px;
+}
+
+#question {
+    font-family: AppleSDGothicNeoR, _AppleSDGothicNeoR;
+    font-size: 36px;
+    color: #ff4894;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    width: 790px;
+}

@@ -1,0 +1,64 @@
+#quiz-container {
+    margin-bottom: 131px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.selector-box {
+    display: inline-block;
+}
+
+input[type="checkbox"] ~ label {
+    display: inline-block;
+    border-radius: 4px;
+    border: solid 1px #5562ff;
+    margin: 8px 20px 8px 20px;
+    width: 150px;
+    padding-top: 18px;
+    padding-bottom: 13px;
+    font-family: AppleSDGothicNeoM, _AppleSDGothicNeoM;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked ~ label {
+    background: #5562ff;
+    color: white;
+}
+
+#my-answer {
+    font-family: AppleSDGothicNeoM, _AppleSDGothicNeoM;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+
+#placeholder {
+    font-family: AppleSDGothicNeoM, _AppleSDGothicNeoM;
+    font-size: 18px;
+    font-weight: 500;
+    color: #afafaf;
+}
+
+#my-answer, #my-answer-dummy {
+    display: block;
+    border-bottom: 2px solid #5562ff;
+    margin-top: 100px;
+    padding-left: 6px;
+    padding-bottom: 7px;
+}
+
+#my-answer-dummy + #my-answer {
+    display:none;
+}
+
+#question {
+    font-family: AppleSDGothicNeoR, _AppleSDGothicNeoR;
+    font-size: 36px;
+    color: #ff4894;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    width: 790px;
+}

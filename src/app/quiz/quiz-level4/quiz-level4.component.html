@@ -1,0 +1,28 @@
+<div class="container text-center" id="question"><div>{{"그림을 보고, 알맞은 단어를 골라주세요."|translate}}</div></div>
+<div class="container">
+    <div class="row text-center" id="quiz-container">
+      <img src="{{ 'quiz_assets/'+ this.quizImageUrl }}" />
+    </div>
+    <div class="row text-center" #select_group>
+      <div class="selector-box">
+        <input id="selector1" type="radio" name="selector" value="1" (click)="activateRadioBox()"/>
+        <label for="selector1" (click)="activateRadioBox()">{{a1}}</label>
+      </div>
+      <div class="selector-box">
+        <input id="selector2" type="radio" name="selector" value="2" (click)="activateRadioBox()"/>
+        <label for="selector2" (click)="activateRadioBox()">{{a2}}</label>
+      </div>
+      <div class="selector-box">
+        <input id="selector3" type="radio" name="selector" value="3" (click)="activateRadioBox()"/>
+        <label for="selector3" (click)="activateRadioBox()">{{a3}}</label>
+      </div>
+      <div class="selector-box">
+        <input id="selector4" type="radio" name="selector" value="4" (click)="activateRadioBox()"/>
+        <label for="selector4" (click)="activateRadioBox()">{{a4}}</label>
+      </div>
+    </div>
+    <div class="row text-center">
+      <span *ngIf="isActiveRadioBox==false" class="select_complete">{{"선택 완료"|translate}}</span>
+      <span *ngIf="isActiveRadioBox==true" (click)="selectValue()" class="select_complete select_complete_active">{{"선택 완료"|translate}}</span>
+    </div>
+  </div>
